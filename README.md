@@ -8,7 +8,7 @@ Website from an online template : http://gammer4live.co.za/malome/
 Website from an online template : http://ntombi-mashila.co.za
 
 # dominatITwebsite
-Website for Dominant IT solutions, company
+Website for Dominant IT solutions company : http://gammer4live.co.za/domIT
 
 # website-for-solar-company
 Creating website for Bonegang Solar, using Sailor – Free Bootstrap Theme
