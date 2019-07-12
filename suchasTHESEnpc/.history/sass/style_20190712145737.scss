@@ -1,10 +1,10 @@
-$font-primary: 'cavorting',
-cavorting;
-$font-secondary: 'cavorting',
-cavorting;
+$font-primary: 'Montserrat',
+sans-serif;
+$font-secondary: 'Merriweather',
+serif;
 // Overrides
 $grid-gutter-width: 40px;
-$border-radius-base: 4px;
+$border-radius-base : 4px;
 $padding-base-vertical: 14px;
 $brand-primary: #52D681;
 $brand-secondary: #118DF0;
@@ -96,7 +96,7 @@ $form-group-margin-bottom: 30px;
 * ======================================================= */
 
 body {
-    font-family: 'cavorting';
+    font-family: $font-secondary;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
