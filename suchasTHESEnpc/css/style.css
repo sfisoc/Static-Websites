@@ -1,9 +1,14 @@
+
 @font-face {
-    font-family: 'icomoon';
-    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-family: 'cavortingregular';
+    src: url('../fonts/cavorting/cavorting-webfont.woff2') format('woff2'),
+         url('../fonts/cavorting/cavorting-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+green {
+    color: limegreen;
 }
 
 
@@ -14,7 +19,7 @@
 * ======================================================= */
 
 body {
-    font-family: "Merriweather", serif;
+    font-family: "cavortingregular", serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -78,7 +83,7 @@ h5,
 h6,
 figure {
     color: limegreen;
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
 }
@@ -114,7 +119,7 @@ figure {
     width: 100%;
     padding: 30px 0;
     z-index: 1001;
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -158,7 +163,7 @@ figure {
     list-style: none;
     display: inline;
     line-height: 1.5;
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
 }
 
 .gtco-nav ul li>a {
@@ -192,7 +197,7 @@ figure {
 }
 
 .gtco-nav ul li.has-dropdown>a:after {
-    font-family: 'icomoon';
+    font-family: 'cavortingregular';
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -506,11 +511,11 @@ figure {
     margin-top: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
 }
 
 #gtco-footer {
-    background: #262626;
+    background: rgba(0, 0, 0, 0.75);
     padding: 7em 0 0 0 !important;
     margin-bottom: 0 !important;
     width: 100%;
@@ -573,7 +578,7 @@ figure {
 #gtco-footer .gtco-footer-link .gtco-list-link li a {
     text-transform: uppercase;
     font-size: 13px !important;
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
 }
 
 #gtco-footer .gtco-footer-subscribe {
@@ -613,7 +618,7 @@ figure {
 }
 
 #gtco-footer .gtco-copyright p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
 }
 
 #gtco-footer .gtco-copyright p:last-child {
@@ -729,7 +734,7 @@ figure {
     text-transform: uppercase;
     letter-spacing: .05em;
     color: #b3b3b3;
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
     margin-bottom: 10px;
     display: block;
     font-size: 12px;
@@ -801,7 +806,7 @@ figure {
     position: absolute;
     left: 0;
     top: .05em;
-    font-family: 'icomoon';
+    font-family: 'cavortingregular';
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -1075,7 +1080,7 @@ blockquote p>cite {
 
 #gtco-offcanvas a {
     color: rgba(255, 255, 255, 0.5);
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
 }
 
 #gtco-offcanvas a:hover {
@@ -1114,7 +1119,7 @@ blockquote p>cite {
 #gtco-offcanvas ul li.offcanvas-has-dropdown>a:after {
     position: absolute;
     right: 0px;
-    font-family: 'icomoon';
+    font-family: 'cavortingregular';
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -1306,7 +1311,7 @@ blockquote p>cite {
 .btn {
     margin-right: 4px;
     margin-bottom: 4px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
     font-size: 13px;
     font-weight: 700 !important;
     -webkit-border-radius: 0px;
@@ -1783,7 +1788,7 @@ blockquote p>cite {
 }
 
 .gtco-more {
-    font-family: "Montserrat", sans-serif;
+    font-family: "cavortingregular", sans-serif;
     text-transform: uppercase;
     font-size: 11px;
     letter-spacing: .05em;
